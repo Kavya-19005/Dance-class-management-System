@@ -1,0 +1,9 @@
+CREATE TABLE `admission` (
+  `admission_id` varchar(5) NOT NULL,
+  `name` varchar(40) DEFAULT NULL,
+  `DOB` date DEFAULT NULL,
+  `gender` varchar(10) DEFAULT NULL,
+  `father_name` varchar(20) DEFAULT NULL,
+  `mother_name` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`admission_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
