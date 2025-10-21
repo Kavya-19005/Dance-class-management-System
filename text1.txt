@@ -1,1 +1,0 @@
-this is a sample text whihc i am using to learn git, now i am making changes to this. 
